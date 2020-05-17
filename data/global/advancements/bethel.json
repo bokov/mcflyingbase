@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "bethel",
+        "description": "A flying house that is powerful but unfortunately also still dangerous to the unwary.",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'Bokov'}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
